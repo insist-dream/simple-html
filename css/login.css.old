@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "΢���ź�", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+header .top{
+    height: 80px;
+    background: #6fba2c;
+    padding: 0 75px;
+
+}
+.top .user .portrait{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    line-height: 80px;
+    margin: 20px 8px 20px 10px;
+    overflow: hidden;
+}
+.top .user .portrait img{
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+.top .user i{
+    display: inline-block;
+    line-height: 80px;
+    font-style: normal;
+    color: #FFF;
+}
+/*------------------------ͷ����ʽ����-----------------------*/
+body{
+    background: rgba(237, 237, 237, 0.71);
+}
+.slider{
+    margin: 0 75px;
+    background: #ffffff;
+    position: relative;
+}
+.slider .my-slider ul li img{
+    width: 100%;
+    vertical-align: top;
+}
+.my-slider{
+    margin: 20px 50px;
+    border-radius: 5px;
+}
+/*-------------��¼����ʽ---------*/
+.login{
+    top:180px;
+    right: 150px;
+    /*text-align: center;*/
+    position: absolute;
+    width: 300px;
+    height: 330px;
+    background: #FFF;
+    border-radius: 4px;
+}
+.login h2{
+    margin-top: 40px;
+    font-size: 20px;
+    color: #52a31b;
+    text-align: center;
+
+}
+.login .phone,.password{
+    width: 260px;
+    border: 1px solid #acaca6;
+    border-radius: 3px;
+    height: 30px;
+    margin: 0 20px;
+    line-height: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+.login input{
+    width: 240px;
+    height: 25px;
+    outline: none;
+    border: 0;
+}
+.login .login-btn{
+    padding: 5px 20px;
+}
+.login .login-btn span{
+    margin-top: 35px;
+    display: inline-block;
+    float: left;
+    width: 129px;
+    height: 35px;
+    border-radius: 2px;
+    line-height: 35px;
+    color: #FFF;
+    text-align: center;
+}
+.login .login-btn span a{
+    text-decoration: none;
+    color: #FFF;
+}
+.login .login-btn .btn-one{
+    background: #52a31b;
+    margin-right: 2px;
+}
+.login .login-btn .btn-two{
+    background: #313131;
+}
+.lost a{
+    text-decoration: none;
+    color: #52a31b;
+    padding-left: 10px;
+}
+.bottom {
+    height: 90px;
+    background: #313131;
+    line-height: 90px;
+    text-align: center;
+    color: #a0a0a0;
+}
+
+.bottom p span {
+    display: inline-block;
+    margin-left: 7px;
+}

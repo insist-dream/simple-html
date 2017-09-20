@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "微软雅黑", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    min-width: 1200px;
+    background-color: #f0f0f0;
+}
+img{
+    vertical-align: top;
+    width: 100%;
+}
+.hide{
+    display: none;
+}
+.wrapper-content{
+    position: relative;
+    min-width: 1200px;
+    min-height: 854px;
+}
+.header{
+    background: #6fba2c;
+}
+.header .top{
+    height: 80px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.header .top .user .portrait{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    line-height: 80px;
+    margin: 20px 8px 20px 10px;
+    overflow: hidden;
+}
+.header .top .user .portrait img{
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+.header .top .user i{
+    display: inline-block;
+    line-height: 80px;
+    font-style: normal;
+    color: #FFF;
+}
+.footer .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    background: #313131;
+    line-height: 90px;
+    text-align: center;
+    color: #a0a0a0;
+}
+.footer .bottom p span {
+    display: inline-block;
+    margin-left: 7px;
+}
+.slider{
+    position: relative;
+    display: table;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 50px 120px 50px;
+    background-color: #fff;
+}
+.slider .unslider{
+    display: table-cell;
+    vertical-align: middle;
+}
+.slider .my-slider{
+    border-radius: 4px;
+    overflow: hidden;
+}
+.login{
+    position: absolute;
+    top:50%;
+    right: 145px;
+    margin-top: -210px;
+    width: 300px;
+    height: 330px;
+    background: #FFF;
+    border-radius: 4px;
+}
+.login h2{
+    margin-top: 40px;
+    font-size: 20px;
+    color: #52a31b;
+    text-align: center;
+
+}
+.login .phone input,.login .password input{
+    width: 260px;
+    border: 1px solid #acaca6;
+    height: 38px;
+    padding: 10px 10px;
+    margin: 0 20px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.login input{
+    width: 240px;
+    height: 25px;
+    outline: none;
+    border: 0;
+}
+.login .login-btn{
+    padding: 5px 20px;
+}
+.login .login-btn span{
+    margin-top: 35px;
+    display: inline-block;
+    float: left;
+    width: 129px;
+    height: 35px;
+    border-radius: 2px;
+    line-height: 35px;
+    color: #FFF;
+    text-align: center;
+}
+.login .login-btn span a{
+    text-decoration: none;
+    color: #FFF;
+}
+.login .login-btn .btn-one{
+    background: #52a31b;
+    margin-right: 2px;
+}
+.login .login-btn .btn-two{
+    background: #313131;
+}
+.lost a{
+    text-decoration: none;
+    color: #52a31b;
+    padding-left: 10px;
+}

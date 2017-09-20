@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
+
+    <title>登录</title>
+
+    <link rel="stylesheet" href="css/plugins/unsilder/unslider.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+</head>
+<body>
+<div class="wrapper-content">
+    <div class="header">
+        <div class="top">
+            <div class="user">
+                <div class="portrait"><img src="images/logo-temp.png" alt=""></div>
+                <i>营地管理后台</i>
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="my-slider">
+            <ul>
+                <li><img src="images/1-1.jpg" alt=""/></li>
+                <li><img src="images/2-2.jpg" alt=""/></li>
+                <li><img src="images/3-3.jpg" alt=""/></li>
+            </ul>
+        </div>
+        <div class="login">
+            <h2>登录管理系统</h2>
+            <div class="phone"><input type="text" placeholder="手机号码"/></div>
+            <div class="password"><input type="password" placeholder="密码"/></div>
+            <div class="login-btn">
+                <div class="lost"><a href="#">忘记密码?</a></div>
+                <span class="btn-one"><a href="#">登录</a></span>
+                <span class="btn-two"><a href="#">去创建账号</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="bottom">
+            <p>COPYRIGHT 2017 <span>ALL RIGHTS RESERVED</span></p>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/plugins/unsilder/unslider-min.js"></script>
+<script>
+    jQuery(document).ready(function ($) {
+        $('.my-slider').unslider({
+            autoplay: true,
+            nav: false,
+            infinite: true,
+            arrows: false,
+            delay: 5000
+        });
+        var $wrapper = $('.wrapper-content');
+
+        var $slider = $('.slider');
+        function fix_height(a) {
+            var wrapperHeigh = $wrapper.height();
+            var windowHeight = $(window).height();
+            if (wrapperHeigh > windowHeight) {
+                $slider.css("min-height", wrapperHeigh - 80 + "px");
+            }
+            if (wrapperHeigh < windowHeight) {
+                $slider.css("min-height", windowHeight - 80 + "px");
+            }
+        }
+
+        fix_height(0);
+        $(window).bind("load resize scroll", function () {
+            $slider.removeAttr('style');
+            fix_height(1);
+        });
+    });
+</script>
+</body>
+</html>

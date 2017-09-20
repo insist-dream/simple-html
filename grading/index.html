@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
+
+    <title>首页</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="wrapper">
+    <div class="row">
+        <div id="nav-top">
+            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header" id="navbar-header">
+                    <img src="../images/logo-temp.png" alt="" class="img-circle">
+                    <i>营地管理后台</i>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li>
+                        <a href="javascript: void (0);">
+                            <i class="fa fa-user"></i>
+                            欢迎你，山水户外
+                        </a>
+                    </li>
+                    <li>
+                        <a class="count-info" href="#">
+                            消息 <span class="label label-primary">8</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">退出</a>
+                    </li>
+                    <li>
+                        <a href="">修改密码</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div id="wrapper-content">
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav metismenu" id="side-menu">
+                    <li>
+                        <a href="../basic/ShowInformation.html"><i class="fa fa-bullseye"></i> <span class="nav-label">营地基本资料</span></a>
+                    </li>
+                    <li class="active">
+                        <a href="../grading/index.html"><i class="fa fa-comments-o"></i> <span
+                                class="nav-label">营地评级申请</span></a>
+                    </li>
+                    <li>
+                        <a href="../message/index.html"><i class="fa fa-bell-o"></i> <span class="nav-label">我的消息</span></a>
+                    </li>
+                    <li>
+                        <a href="../action/updatePassword.html"><i class="fa fa-unlock-alt"></i> <span
+                                class="nav-label">修改密码</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+            <div class="row wrapper white-bg category">
+                <div class="col-lg-12">
+                    <h2 class="title">营地评级申请</h2>
+                </div>
+            </div>
+            <div class="wrapper wrapper-content animated fadeInRight">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ibox float-e-margins ibox-message">
+                            <div class="ibox-title text-center">
+                                <h5 style="float:none;">营地评级申请说明</h5>
+                            </div>
+                            <div class="ibox-content p-xxl">
+                                <div class="form-horizontal">
+                                    <div class="form-group">
+                                        <div class="col-sm-12">
+                                            <p>营地等级划分为3个级别，从低到高依次为注册营地、国家级营地、国家示范性营地。</p>
+                                            <br>
+                                            <p>营地等级的标牌、编号证书由青少司统一制作，由青委会颁发（注册级营地只做登记，不予授牌）。</p>
+                                            <br>
+                                            <p>各营地等级申请需满足基本要求，见表2。</p>
+                                            <br>
+                                            <p>
+                                                营地注册和国家级营地由青委会组织评定。被公告为国家级一年以上的营地可申报国家示范性营地。国家示范性营地由青委会推荐，青少司组织评定。评级从三个方面细则进行:</p>
+                                            <br>
+                                            <p>细则一: 营地影响力评分细则</p>
+                                            <p>细则二:营地项目评分细则</p>
+                                            <p>细则三: 营地设施与管理评分细则</p>
+                                            <br>
+                                            <p>
+                                                各级别营地需达到每项细则最低分，如某营地评定国家级营地，其三项得分为78分、70分、75分，由于其细则二没达到75分的最低要求，则无法评定为国家级营地。</p>
+                                            <br>
+                                            <p>表1. 各级别营地评级申请细则所需要求</p>
+                                            <table class="grading-table m-b-sm">
+                                                <thead>
+                                                <tr>
+                                                    <th>级别</th>
+                                                    <th>细则一</th>
+                                                    <th>细则二</th>
+                                                    <th>细则三</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>满分</td>
+                                                    <td>100分</td>
+                                                    <td>100分</td>
+                                                    <td>100分</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>国家示范性营地</td>
+                                                    <td>95分</td>
+                                                    <td>95分</td>
+                                                    <td>95分</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>国家级营地</td>
+                                                    <td>75分</td>
+                                                    <td>75分</td>
+                                                    <td>75分</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>注册营地</td>
+                                                    <td>60分</td>
+                                                    <td>60分</td>
+                                                    <td>60分</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                            <p>表2. 各等级营地基本要求 请各营地根据实际情况进行对照，不满足一条将在现场评定中扣２分</p>
+                                            <table class="grading-table m-b-sm">
+                                                <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>注册营地</th>
+                                                    <th>国家级营地</th>
+                                                    <th>国家示范性营地</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>地貌种数</td>
+                                                    <td>2种</td>
+                                                    <td>2种</td>
+                                                    <td>4种</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>距离最近县城车程</td>
+                                                    <td>无</td>
+                                                    <td>4小时内</td>
+                                                    <td>2小时内</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>停车场小车位数量</td>
+                                                    <td>10个</td>
+                                                    <td>50个</td>
+                                                    <td>100个</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>营地面积</td>
+                                                    <td>10亩</td>
+                                                    <td>30亩</td>
+                                                    <td>50亩</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>同时用餐人数</td>
+                                                    <td>30人</td>
+                                                    <td>100人</td>
+                                                    <td>200人</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>同时住宿人数</td>
+                                                    <td>30人</td>
+                                                    <td>100人</td>
+                                                    <td>200人</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>厕所蹲位数量</td>
+                                                    <td>男：2个，女：4个</td>
+                                                    <td>男：8个，女：16个</td>
+                                                    <td>男：12个，女：24个</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>浴室淋浴位数量</td>
+                                                    <td>男：2个，女：4个</td>
+                                                    <td>男：8个，女：16个</td>
+                                                    <td>男：12个，女：24个</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>办公室面积</td>
+                                                    <td>15平方米</td>
+                                                    <td>20平方米</td>
+                                                    <td>30平方米</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>有无营地围墙</td>
+                                                    <td>有</td>
+                                                    <td>有</td>
+                                                    <td>有</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>室内活动场所面积</td>
+                                                    <td>50㎡</td>
+                                                    <td>100㎡</td>
+                                                    <td>200㎡</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>露天活动场所面积</td>
+                                                    <td>400㎡</td>
+                                                    <td>1600㎡</td>
+                                                    <td>6400㎡</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>露天有盖场所面积</td>
+                                                    <td>无</td>
+                                                    <td>200㎡</td>
+                                                    <td>400㎡</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>有无服务中心</td>
+                                                    <td>无</td>
+                                                    <td>有</td>
+                                                    <td>有</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>监控系统范围</td>
+                                                    <td>营门</td>
+                                                    <td>营门、项目场地</td>
+                                                    <td>营门、营围、项目场地、寝室、餐厅</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>医疗救护设置</td>
+                                                    <td>急救设备、1套AED设备</td>
+                                                    <td>急救设备、1套AED设备、专职救护人员</td>
+                                                    <td>急救设备、2套AED设备、全职救护人员、医疗救护室</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>人员配置</td>
+                                                    <td>管理、技术</td>
+                                                    <td>管理、技术、救援</td>
+                                                    <td>管理、技术、救援</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>营地项目数量</td>
+                                                    <td>10个</td>
+                                                    <td>15个</td>
+                                                    <td>19个</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>年接待量（人天次）</td>
+                                                    <td>1000</td>
+                                                    <td>4000</td>
+                                                    <td>10000</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="form-group text-center">
+                                        <button class="btn btn-primary" type="submit"
+                                                style="padding-left: 25px;padding-right: 25px;">满足条件，去申请评级
+                                        </button>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-12">
+                                            <p>友情提示：因评级内容较多，建议准备好对应资料后再进行相关录入，具体资料如下：</p>
+                                            <div>
+                                                <p><a href=""><i class="fa fa-dedent"></i>全国青少年户外体育活动营地评级申请申报材料-V1.4</a>
+                                                </p>
+                                                <p><a href=""><i class="fa fa-adjust"></i>评定细则-V1.4</a></p>
+                                                <p><a href=""><i class="fa fa-tint"></i>必须上传证明的材料列表</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center grading-fixed-btn hide">
+        <button class="btn btn-primary" type="submit">满足条件，去申请评级</button>
+    </div>
+</div>
+<!-- Mainly scripts -->
+<script src="../js/jquery-2.1.1.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<!--折叠菜单插件-->
+<script src="../js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<!--滚动条-->
+<script src="../js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<!-- 自定义JavaScript和插件 -->
+<script src="../js/inspinia.js"></script>
+<!--进度条-->
+<script src="../js/plugins/pace/pace.min.js"></script>
+<script>
+    $(document).ready(function () {
+        var $gradingBtn = $('.grading-fixed-btn');
+        $(window).on('load.bs.grading resize.bs.grading scroll.bs.grading', function () {
+            var w = $(window).height();
+            if ($gradingBtn.is('.hide')) {
+                $gradingBtn.removeClass('hide');
+            }
+            if ($(this).scrollTop() + w >= 1850) {
+                $gradingBtn.hide();
+            } else {
+                $gradingBtn.show();
+            }
+        });
+    });
+</script>
+</body>
+</html>

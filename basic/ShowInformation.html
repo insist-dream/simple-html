@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
+
+    <title>基本信息</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="wrapper">
+    <div class="row">
+        <div id="nav-top">
+            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header" id="navbar-header">
+                    <img src="../images/logo-temp.png" alt="" class="img-circle">
+                    <i>营地管理后台</i>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li>
+                        <a href="javascript: void (0);">
+                            <i class="fa fa-user"></i>
+                            欢迎你，山水户外
+                        </a>
+                    </li>
+                    <li>
+                        <a class="count-info" href="#">
+                            消息 <span class="label label-primary">8</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">退出</a>
+                    </li>
+                    <li>
+                        <a href="">修改密码</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div id="wrapper-content">
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav metismenu" id="side-menu">
+                    <li class="active">
+                        <a href="#"><i class="fa fa-bullseye"></i> <span class="nav-label">营地基本资料</span></a>
+                    </li>
+                    <li>
+                        <a href="../grading/index.html"><i class="fa fa-comments-o"></i> <span class="nav-label">营地评级申请</span></a>
+                    </li>
+                    <li>
+                        <a href="../message/index.html"><i class="fa fa-bell-o"></i><span class="nav-label">我的消息</span></a>
+                    </li>
+                    <li>
+                        <a href="../action/updatePassword.html"><i class="fa fa-unlock-alt"></i> <span class="nav-label">修改密码</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+            <div class="row wrapper white-bg category">
+                <div class="col-lg-12">
+                    <h2 class="title">营地基本信息</h2>
+                </div>
+            </div>
+            <div class="wrapper wrapper-content animated fadeInRight">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-title">
+                                <h5><i class="fa fa-user-md"></i>基本信息</h5>
+                            </div>
+                            <div class="ibox-content">
+                                <form method="get" class="form-horizontal">
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">营地名称：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 control-label text-left">山水户外</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label charter">营业执照/事业单位登记名称：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 control-label text-left">山水户外</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">详细地址：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 control-label text-left">山水户外</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label charter-p-l">营业执照/事业单位注册号/统一社会信用代码：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 control-label text-left">山水户外</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">营业执照扫描件：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 single-upload">
+                                                <div class="upload-show">
+                                                    <img src="https://static.bootcss.com/www/assets/img/gulpjs.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">营地类型：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 control-label text-left">山水户外</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">法定代表人姓名：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 control-label text-left">山水户外</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">法定代表人身份证号：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 control-label text-left">山水户外</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">法定代表人身份证扫描件：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 single-upload">
+                                                <div class="upload-show">
+                                                    <img src="https://static.bootcss.com/www/assets/img/gulpjs.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="row col-sm-12 single-upload">
+                                                <div class="upload-show">
+                                                    <img src="https://static.bootcss.com/www/assets/img/gulpjs.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">营地联系人：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 control-label text-left">山水户外</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">联系人手机号码：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 control-label text-left">山水户外</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">营地主营区面积：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 control-label text-left">山水户外</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">其他可用面积：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 control-label text-left">山水户外</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">累计投入资金：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 control-label text-left">山水户外</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">年均投入资金：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 control-label text-left">山水户外</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">工作人员：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 m-b-none">
+                                                <div class="addStaff">
+                                                    <table>
+                                                        <thead>
+                                                        <tr>
+                                                            <th>序号</th>
+                                                            <th>姓名</th>
+                                                            <th>岗位</th>
+                                                            <th class="addStaff-action">操作</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>李晓明</td>
+                                                            <td>技术</td>
+                                                            <td class="addStaff-action">
+                                                                <div class="show" data-toggle="modal" data-target="#showStaff">查看</div>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">营地开业时间：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 control-label text-left">山水户外</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">特色地貌：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-2 clearfix">
+                                                        <div class="tag-item">森林</div>
+                                                    </div>
+                                                    <div class="col-sm-2 clearfix">
+                                                        <div class="tag-item">森林</div>
+                                                    </div>
+                                                    <div class="col-sm-2 clearfix">
+                                                        <div class="tag-item">森林</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">主营时间：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-2 clearfix">
+                                                        <div class="tag-item">森林</div>
+                                                    </div>
+                                                    <div class="col-sm-2 clearfix">
+                                                        <div class="tag-item">森林</div>
+                                                    </div>
+                                                    <div class="col-sm-2 clearfix">
+                                                        <div class="tag-item">森林</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">营员主要来源：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-2 clearfix">
+                                                        <div class="tag-item">森林</div>
+                                                    </div>
+                                                    <div class="col-sm-2 clearfix">
+                                                        <div class="tag-item">森林</div>
+                                                    </div>
+                                                    <div class="col-sm-2 clearfix">
+                                                        <div class="tag-item">森林</div>
+                                                    </div>
+                                                    <div class="col-sm-2 clearfix">
+                                                        <div class="tag-item">森林</div>
+                                                    </div>
+                                                    <div class="col-sm-2 clearfix">
+                                                        <div class="tag-item">森林</div>
+                                                    </div>
+                                                    <div class="col-sm-2 clearfix">
+                                                        <div class="tag-item">森林</div>
+                                                    </div>
+                                                    <div class="col-sm-2 clearfix">
+                                                        <div class="tag-item">森林</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-lg-12">
+                                            <p class="form-control-static"><i class="fa fa-flag"></i>上传营地照片<em class="note">( 1. 格式：jpg, png    2. 大小：300px×300px、500KB )</em></p>
+                                        </div>
+                                    </div>
+                                    <div class="row hr-line-solid m-t-n-lg"></div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">营地正门：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12">
+                                                <div class="upload-show">
+                                                    <img src="https://static.bootcss.com/www/assets/img/gulpjs.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">平面导览图：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12">
+                                                <div class="upload-show">
+                                                    <img src="https://static.bootcss.com/www/assets/img/gulpjs.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">停车场：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12">
+                                                <div class="upload-show">
+                                                    <img src="https://static.bootcss.com/www/assets/img/gulpjs.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">服务中心：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12">
+                                                <div class="upload-show">
+                                                    <img src="https://static.bootcss.com/www/assets/img/gulpjs.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">住宿：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12">
+                                                <div class="upload-show">
+                                                    <img src="https://static.bootcss.com/www/assets/img/gulpjs.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">餐饮：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12">
+                                                <div class="upload-show">
+                                                    <img src="https://static.bootcss.com/www/assets/img/gulpjs.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-lg-12">
+                                            <p class="form-control-static"><i class="fa fa-headphones"></i>营地介绍：</p>
+                                        </div>
+                                    </div>
+                                    <div class="row hr-line-solid m-t-n-lg"></div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">营地概述：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 control-label text-left">山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">发展概述：</label>
+                                        <div class="col-sm-9">
+                                            <div class="row col-sm-12 control-label text-left">山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地山水户外是一家青少年户外营地</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-9 col-sm-offset-3">
+                                            <button class="btn btn-primary" type="submit" style="padding-left: 85px;padding-right: 85px;">编辑</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="modal fade" id="showStaff" tabindex="-1" role="dialog" aria-labelledby="showStaff">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header p-xs" style="padding-left: 30px;padding-right: 30px">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title">工作人员详细信息</h4>
+                                            </div>
+                                            <div class="modal-body clearfix">
+                                                <div class="form-horizontal">
+                                                    <div class="form-group">
+                                                        <label class="col-sm-3 control-label">姓名：</label>
+                                                        <div class="col-sm-9">
+                                                            <div class="row col-sm-12 control-label text-left">李晓明</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-3 control-label">岗位：</label>
+                                                        <div class="col-sm-9">
+                                                            <div class="row col-sm-12 control-label text-left">技术</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-3 control-label">性别：</label>
+                                                        <div class="col-sm-9">
+                                                            <div class="row col-sm-12 control-label text-left">男</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-3 control-label">身份证号：</label>
+                                                        <div class="col-sm-9">
+                                                            <div class="row col-sm-12 control-label text-left">110434196409324312</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-3 control-label">联系方式：</label>
+                                                        <div class="col-sm-9">
+                                                            <div class="row col-sm-12 control-label text-left">158 0000 0000</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-3 control-label">证书名称：</label>
+                                                        <div class="col-sm-9">
+                                                            <div class="row col-sm-12 control-label text-left">教练证</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-3 control-label">证书号码：</label>
+                                                        <div class="col-sm-9">
+                                                            <div class="row col-sm-12 control-label text-left">1104358123</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-3 control-label">证书扫描件：</label>
+                                                        <div class="col-sm-9">
+                                                            <div class="row col-sm-12">
+                                                                <div class="upload-show">
+                                                                    <img src="https://static.bootcss.com/www/assets/img/gulpjs.png" alt="">
+                                                                </div>
+                                                                <div class="upload-show">
+                                                                    <img src="https://static.bootcss.com/www/assets/img/gulpjs.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="col-sm-12 text-center">
+                                                            <button type="submit" class="btn btn-primary" data-dismiss="modal" style="padding-left: 85px;padding-right: 85px">确认</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Mainly scripts -->
+<script src="../js/jquery-2.1.1.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<!--折叠菜单插件-->
+<script src="../js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<!--滚动条-->
+<script src="../js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<!-- 自定义JavaScript和插件 -->
+<script src="../js/inspinia.js"></script>
+<!--进度条-->
+<script src="../js/plugins/pace/pace.min.js"></script>
+<script src="../js/upload.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#myModal').modal()
+    });
+</script>
+</body>
+</html>
